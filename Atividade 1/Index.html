@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Config.css">
+</head>
+<body>
+    <h1>Atividade 1</h1>
+
+    Seu Nome: <input type="text" id="Nome" name="form" placeholder="Digite seu Nome" required> <br><br>
+    Marca: <input type="text" id="Marca" name="form" placeholder="Digite a Marca" required> <br><br>
+    Segmento: <input type="text" id="Segmento" name="form" placeholder="Digite o Segmento" required> <br><br>
+    Valor: <input type="number" id="Valor" name="form" placeholder="Digite o Valor" required> <br><br>
+    Data de Venda: <input type="date" name="form" id="Data" required> <br><br>
+
+    <button onclick="LinhaTabela()">Salvar</button> <br><br>
+
+    <table id="tableDados">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Marca</th>
+                <th>Segmento</th>
+                <th>Valor</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+<script src="Script.js"></script>
+</html>

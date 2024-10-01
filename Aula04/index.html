@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <h1>Formulario em JavaScript</h1>
+    <hr>
+    <form id="linhaForm">
+        <input type="text" name="nome" placeholder="Digite se nome" id="nome" required>
+        <br><br>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required>
+        <br><br>    
+        <input type="date" name="admissão" id="admissão" required>
+        <br><br>
+        <input type="date" name="demissao" id="demissao" required>
+        <br><br>
+        <button type="button" onclick = "adicionarLinha()">Adicionar</button>
+        <br><br>
+    </form>
+    <table id="tableDados">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Admissão</th>
+                <th>Demissão</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+<script src="formulario.js"></script>
+</html>
